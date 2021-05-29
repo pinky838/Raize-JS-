@@ -1,0 +1,146 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "7oPfhPPkksvSwaMRWZCjSk",
+      "projectName": "RAIZE !!",
+      "version": "latest",
+      "cssFilePath": "plasmic/raize/plasmic_raize.module.css",
+      "components": [
+        {
+          "id": "RSi1xR0PXoo7E",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "7oPfhPPkksvSwaMRWZCjSk",
+          "renderModuleFilePath": "plasmic/raize/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/raize/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "wrQaf7yjSm5KS",
+          "name": "FacebookIconIcon",
+          "moduleFilePath": "plasmic/raize/icons/PlasmicIcon__FacebookIcon.jsx"
+        },
+        {
+          "id": "kDe9R8rrVpXCi",
+          "name": "ExcludeIcon",
+          "moduleFilePath": "plasmic/raize/icons/PlasmicIcon__Exclude.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "q-0pPqQgVD_12",
+          "name": "Mask",
+          "filePath": "../public/plasmic/raize/images/mask.png"
+        },
+        {
+          "id": "Jpw_z9FMs3JdY",
+          "name": "Base",
+          "filePath": "../public/plasmic/raize/images/base.png"
+        },
+        {
+          "id": "JRcjTxqKh6qtH",
+          "name": "Glossy",
+          "filePath": "../public/plasmic/raize/images/glossy.png"
+        },
+        {
+          "id": "J3bSzGoRr82zj",
+          "name": "image 313",
+          "filePath": "../public/plasmic/raize/images/image313.png"
+        },
+        {
+          "id": "dILYqTv6AslHH",
+          "name": "image 308",
+          "filePath": "../public/plasmic/raize/images/image308.png"
+        },
+        {
+          "id": "ib8gyUuG9tu2t",
+          "name": "image 309",
+          "filePath": "../public/plasmic/raize/images/image309.png"
+        },
+        {
+          "id": "utWgJlC4z_eay",
+          "name": "image 310",
+          "filePath": "../public/plasmic/raize/images/image310.png"
+        },
+        {
+          "id": "AUA2HY8aaqPZk",
+          "name": "image 311",
+          "filePath": "../public/plasmic/raize/images/image311.png"
+        },
+        {
+          "id": "VcPYfc2jsuLcA",
+          "name": "image 312",
+          "filePath": "../public/plasmic/raize/images/image312.png"
+        },
+        {
+          "id": "NrcONK9boJVAh",
+          "name": "Google icon",
+          "filePath": "../public/plasmic/raize/images/googleIcon.svg"
+        },
+        {
+          "id": "5q0zgqiq1qgV7",
+          "name": "LOGO.png",
+          "filePath": "../public/plasmic/raize/images/logOpng.png"
+        },
+        {
+          "id": "gdn6Ok2RSV1mO",
+          "name": "rocket.png",
+          "filePath": "../public/plasmic/raize/images/rocketpng.png"
+        },
+        {
+          "id": "Cv0qwLwJMs9o_",
+          "name": "LOGO bigger.png",
+          "filePath": "../public/plasmic/raize/images/logoBiggerpng.png"
+        },
+        {
+          "id": "MRzgUUerEbq62",
+          "name": "rocket big.png",
+          "filePath": "../public/plasmic/raize/images/rocketBigpng.png"
+        }
+      ],
+      "projectApiToken": "To072OrcapqpKPD2oylvy8hlt4uLcBXUhAT4Xh3PVLaR9KkfRlRScDEZEegu9SP9ndisdTZIaKAdmaf3Xqw"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "tWRWY8AFxJ62i",
+        "name": "Screen",
+        "projectId": "7oPfhPPkksvSwaMRWZCjSk",
+        "contextFilePath": "plasmic/raize/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.152",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.152/dist/plasmic.schema.json"
+}
