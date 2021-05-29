@@ -29,14 +29,27 @@
       "components": [
         {
           "id": "RSi1xR0PXoo7E",
-          "name": "Homepage",
+          "name": "SignupPage",
           "type": "managed",
           "projectId": "7oPfhPPkksvSwaMRWZCjSk",
-          "renderModuleFilePath": "plasmic/raize/PlasmicHomepage.jsx",
+          "renderModuleFilePath": "plasmic/raize/PlasmicSignupPage.jsx",
           "importSpec": {
             "modulePath": "../pages/index.jsx"
           },
-          "cssFilePath": "plasmic/raize/PlasmicHomepage.module.css",
+          "cssFilePath": "plasmic/raize/PlasmicSignupPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "XxhJKkLZ0g",
+          "name": "CennzWalletSignin",
+          "type": "managed",
+          "projectId": "7oPfhPPkksvSwaMRWZCjSk",
+          "renderModuleFilePath": "plasmic/raize/PlasmicCennzWalletSignin.jsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.jsx"
+          },
+          "cssFilePath": "plasmic/raize/PlasmicCennzWalletSignin.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
@@ -51,6 +64,11 @@
           "id": "kDe9R8rrVpXCi",
           "name": "ExcludeIcon",
           "moduleFilePath": "plasmic/raize/icons/PlasmicIcon__Exclude.jsx"
+        },
+        {
+          "id": "uDRdW44miHK",
+          "name": "Line1Icon",
+          "moduleFilePath": "plasmic/raize/icons/PlasmicIcon__Line1.jsx"
         }
       ],
       "images": [
@@ -123,6 +141,151 @@
           "id": "MRzgUUerEbq62",
           "name": "rocket big.png",
           "filePath": "../public/plasmic/raize/images/rocketBigpng.png"
+        },
+        {
+          "id": "ubHZPpONu",
+          "name": "Base 2",
+          "filePath": "../public/plasmic/raize/images/base2.png"
+        },
+        {
+          "id": "3NLv70AfO0",
+          "name": "Glossy 2",
+          "filePath": "../public/plasmic/raize/images/glossy2.png"
+        },
+        {
+          "id": "mCTO9_v-ZC",
+          "name": "Mask 2",
+          "filePath": "../public/plasmic/raize/images/mask2.png"
+        },
+        {
+          "id": "EaMrAZcfvJ",
+          "name": "image 410",
+          "filePath": "../public/plasmic/raize/images/image410.png"
+        },
+        {
+          "id": "Rb2Czm1yHj",
+          "name": "image 411",
+          "filePath": "../public/plasmic/raize/images/image411.png"
+        },
+        {
+          "id": "es32BJSKwL",
+          "name": "image 412",
+          "filePath": "../public/plasmic/raize/images/image412.png"
+        },
+        {
+          "id": "OydhsvYvBJ",
+          "name": "image 413",
+          "filePath": "../public/plasmic/raize/images/image413.png"
+        },
+        {
+          "id": "gzA9HBGB0Q",
+          "name": "image 414",
+          "filePath": "../public/plasmic/raize/images/image414.png"
+        },
+        {
+          "id": "zOMnQkDCW0",
+          "name": "image 415",
+          "filePath": "../public/plasmic/raize/images/image415.png"
+        },
+        {
+          "id": "2WhTkMiwM0",
+          "name": "image 416",
+          "filePath": "../public/plasmic/raize/images/image416.png"
+        },
+        {
+          "id": "kDsfJZdvAK",
+          "name": "image 436",
+          "filePath": "../public/plasmic/raize/images/image436.png"
+        },
+        {
+          "id": "MUhXAH2Cf0p",
+          "name": "no user",
+          "filePath": "../public/plasmic/raize/images/noUser.svg"
+        },
+        {
+          "id": "mxZ426ve1",
+          "name": "Wallet cennz.png",
+          "filePath": "../public/plasmic/raize/images/walletCennzpng.png"
+        },
+        {
+          "id": "5tNtwky7G",
+          "name": "c.png",
+          "filePath": "../public/plasmic/raize/images/cpng.png"
+        },
+        {
+          "id": "rmS_9nny1",
+          "name": "gradient.png",
+          "filePath": "../public/plasmic/raize/images/gradientpng.png"
+        },
+        {
+          "id": "rIS-J5ZUB",
+          "name": "no user 2",
+          "filePath": "../public/plasmic/raize/images/noUser2.svg"
+        },
+        {
+          "id": "lja27hg-_",
+          "name": "Base 3",
+          "filePath": "../public/plasmic/raize/images/base3.png"
+        },
+        {
+          "id": "U-b6wTPVvO",
+          "name": "Glossy 3",
+          "filePath": "../public/plasmic/raize/images/glossy3.png"
+        },
+        {
+          "id": "NJvR2SyY5i",
+          "name": "image 417",
+          "filePath": "../public/plasmic/raize/images/image417.png"
+        },
+        {
+          "id": "gHIPrT-Ceo",
+          "name": "image 418",
+          "filePath": "../public/plasmic/raize/images/image418.png"
+        },
+        {
+          "id": "CemQdwHcx",
+          "name": "image 419",
+          "filePath": "../public/plasmic/raize/images/image419.png"
+        },
+        {
+          "id": "G-VwvYYUPD",
+          "name": "image 420",
+          "filePath": "../public/plasmic/raize/images/image420.png"
+        },
+        {
+          "id": "Iv2ch0Y19i",
+          "name": "image 421",
+          "filePath": "../public/plasmic/raize/images/image421.png"
+        },
+        {
+          "id": "7ghdR_imeD",
+          "name": "image 422",
+          "filePath": "../public/plasmic/raize/images/image422.png"
+        },
+        {
+          "id": "cvgKGpg-f0",
+          "name": "image 423",
+          "filePath": "../public/plasmic/raize/images/image423.png"
+        },
+        {
+          "id": "0z9drhDNv",
+          "name": "c.png 2",
+          "filePath": "../public/plasmic/raize/images/cpng2.png"
+        },
+        {
+          "id": "SUKC093eZ",
+          "name": "Wallet cennz.png 2",
+          "filePath": "../public/plasmic/raize/images/walletCennzpng2.png"
+        },
+        {
+          "id": "em1l-eUmj8",
+          "name": "no user 3",
+          "filePath": "../public/plasmic/raize/images/noUser3.svg"
+        },
+        {
+          "id": "1ipiqU4yf",
+          "name": "RAIZE.png",
+          "filePath": "../public/plasmic/raize/images/raizEpng.png"
         }
       ],
       "projectApiToken": "To072OrcapqpKPD2oylvy8hlt4uLcBXUhAT4Xh3PVLaR9KkfRlRScDEZEegu9SP9ndisdTZIaKAdmaf3Xqw"

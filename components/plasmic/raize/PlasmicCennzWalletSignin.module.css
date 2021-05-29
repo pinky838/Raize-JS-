@@ -1,0 +1,128 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  background: #000000;
+}
+.header {
+  width: 1448px;
+  height: 64px;
+  display: block;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 1);
+}
+.img__uy3Yf {
+  position: absolute;
+  object-fit: cover;
+  left: 25px;
+  top: 14px;
+  width: 116px;
+  height: 30px;
+}
+.img__gcxpS {
+  position: absolute;
+  object-fit: cover;
+  width: 46px;
+  height: 46px;
+  display: block;
+  align-self: flex-end;
+  left: 1245px;
+  top: 9px;
+  flex-shrink: 0;
+}
+.img__bmjQx {
+  position: absolute;
+  object-fit: cover;
+  width: 61px;
+  height: 55px;
+  align-self: flex-end;
+  left: 1294px;
+  top: 3px;
+  flex-shrink: 0;
+}
+.figmaPaste {
+  display: block;
+  position: relative;
+  width: 246px;
+  height: 131px;
+  flex-shrink: 0;
+}
+.cennzWallet {
+  position: relative;
+  object-fit: cover;
+  width: 322px;
+  height: 310px;
+  align-self: center;
+  flex-shrink: 0;
+}
+.signInToYourWallet {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 56px;
+  color: rgba(255, 255, 255, 1);
+  width: 716px;
+  align-self: center;
+}
+.btnbtn {
+  width: 242px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: center;
+  border-radius: 120.248px;
+  padding: 18.037px 24.049px;
+  background: linear-gradient(
+      107.34deg,
+      rgba(137, 212, 235, 1) 0%,
+      rgba(239, 149, 255, 1) 21.78%,
+      rgba(255, 86, 169, 1) 54.21%,
+      rgba(255, 169, 107, 1) 85.54%
+    )
+    0% 0% / 100% 100% no-repeat padding-box border-box scroll;
+}
+.text {
+  display: block;
+  font-size: 36.074px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 36.074px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 148px;
+  height: 37px;
+  flex-shrink: 0;
+}
+.makeANewCennzAccount2 {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  text-decoration-line: underline;
+  font-family: "Poppins";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 38.865px;
+  color: transparent;
+  width: 245px;
+  height: 39px;
+  align-self: center;
+  flex-shrink: 0;
+  background: url("/plasmic/raize/images/gradientpng.png") 0% 0% / 100% 100% no-repeat padding-box
+    scroll;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
